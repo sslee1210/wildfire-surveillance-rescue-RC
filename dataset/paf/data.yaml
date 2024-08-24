@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/dataset/paf/train/images
+val: /content/drive/MyDrive/dataset/paf/valid/images
+test: /content/drive/MyDrive/dataset/paf/test/images
+
+nc: 2
+names: ['fire', 'person']
+
+roboflow:
+  workspace: kjw
+  project: person-and-fire-models
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kjw/person-and-fire-models/dataset/1
